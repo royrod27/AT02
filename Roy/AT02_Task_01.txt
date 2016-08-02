@@ -1,0 +1,12 @@
+1.-What is Ruby?
+	-Ruby is a dynamic, object oriented, general purpose programming language.
+	
+		
+2.-What pros/cons you considered from the point explained in the class
+		Pros					Cons
+	-Easy to learn				-No multiple inheritances
+	-All is a object
+	-No to much code conditions
+
+3.-According what we talked today, what are the 3 testing tiers?
+	-The three tiers we can apply testing, Services, Backend, Ui Testing.
