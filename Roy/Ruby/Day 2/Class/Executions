@@ -1,0 +1,29 @@
+	Exec1_class_02.1
+HelloWorld-1
+HelloWorld-2Task-3
+Hi People-5
+Hi People-6ok-7
+[Finished in 0.1s]
+##############################################
+
+	Exec1_class_02.2
+Hello Again..!
+SS: 19
+SA: 12
+SR: 5
+15
+[Finished in 0.1s]
+##############################################
+
+	Exec1_class_02.3
+Hello Again..!
+SS: 20
+SA: 12
+SR: 5
+15	
+[Finished in 0.2s]
+##############################################
+
+	Exec2_class_02.3
+C:/Users/RoyRodriguez/Documents/Repo/AT02/Roy/Ruby/Day 2/Class/class_02.3.rb:6:in `<main>': undefined local variable or method `x' for main:Object (NameError)
+[Finished in 0.1s]

@@ -1,0 +1,29 @@
+1.-The way to add comments on ruby (inline – multiline)
+	-Inline
+		use <#> before a comment
+		Example
+		#Commnet about the code
+
+	-Multiline
+		use <=begin
+			Comment
+			about
+			the
+			code
+			=end>
+
+		Example
+		=begin
+		Comment
+		about
+		the
+		code
+		=end
+2.-When you should use each type
+	-<#> when you need comment about just one code line.
+
+	-<=begin
+	=end> when you need comment about all code or part of this, not one line. 
+
+3.-Create and script using inline-multiline comments
+	-Comments.rb

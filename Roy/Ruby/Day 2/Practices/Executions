@@ -1,0 +1,37 @@
+	Exec1_Prac_1
+Addition: 14
+Subtraction: 10
+Multiplication: 24
+Division: 6
+Modulus: 0
+Exponent: 144
+Equal: false
+Not:  true
+Greater: false
+Less: true
+Greater or Equal: false
+Less or Equal: true
+Comparison Operator: -1
+true
+false
+Assignment: 13
+Assignment and Operator +: 18
+Assignment and Operator -: 13
+Assignment and Operator *: 65
+Assignment and Operator /: 13
+Assignment and Operator %: 3
+Assignment and Operator **: 25
+And_1: false
+Or_1: true
+And_2: false
+Or_2: true
+Not_1: false
+Not_2: true
+[Finished in 0.2s]
+
+	Exec1_Prac_2
+Seconds: 180
+Minutes: 3.0
+Hours: 0.05
+Days: 0.0020833333333333333
+[Finished in 0.2s]
