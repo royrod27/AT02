@@ -1,0 +1,54 @@
+	#Exec1_class_03.1
+
+What is your name?
+Roy
+Hi Roy
+! How are you?
+
+	#Exec2_class_03.1
+
+What is your name?
+Roy
+Hi Roy!! How are you?
+
+######################################################################
+	#Exec1_class_03.2
+
+Give me a number:
+5
+A bigger number is 500
+
+	#Exec2_class_03.2
+
+Give me a number:
+a2
+A bigger number is 0
+
+	#Exec3_class_03.2
+
+Give me a number:
+7
+A bigger number is 7777777777777777777777777777777777777777777777777777777777777777777777777777777777777777777777777777
+
+	#Exec4_class_03.2
+
+Give me a number:
+5
+class_03.2.rb:3:in `+': no implicit conversion of Fixnum into String (TypeError)
+        from class_03.2.rb:3:in `<main>'
+
+######################################################################
+	#Exec1_class_03.3
+
+My first instance method
+Second Method
+[Finished in 0.2s]
+######################################################################
+	#Exec1_class_03.4
+
+Radio:
+1
+Area: 6.283185307179586
+Radio:
+1
+Perimeter: 3.141592653589793
