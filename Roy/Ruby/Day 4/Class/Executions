@@ -1,0 +1,92 @@
+###########################################################################################################################################
+	Exec1_Class_4.1
+
+18
+[Finished in 0.2s]
+
+		Exec2_Class_4.1
+
+C:/Users/RoyRodriguez/Documents/Repo/AT02/Roy/Ruby/Day 4/Class/Class_4.1.rb:8:in `<main>': undefined local variable or method `val' for main:Object (NameError)
+[Finished in 0.2s with exit code 1]
+[shell_cmd: ruby "C:\Users\RoyRodriguez\Documents\Repo\AT02\Roy\Ruby\Day 4\Class\Class_4.1.rb"]
+[dir: C:\Users\RoyRodriguez\Documents\Repo\AT02\Roy\Ruby\Day 4\Class]
+[path: C:\ProgramData\Oracle\Java\javapath;C:\windows\system32;C:\windows;C:\windows\System32\Wbem;C:\windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\Git\cmd;C:\Ruby22-x64\bin]
+
+		Exec3_Class_4.1
+18
+val
+other_val
+add_res
+[Finished in 0.1s
+
+
+###########################################################################################################################################
+		
+		Exec1_Class_4.2
+Person id: 25
+Person name: Pedro
+Person address: B.Galindo #32
+##############################
+Person id: 44
+Person name: Oscar
+Person address: E.Arze #44
+[Finished in 0.1s]
+
+		Exec2_Class_4.2
+Person id: 25
+Person name: Pedro
+Person address: B.Galindo #32
+##############################
+Person id: 44
+Person name: Oscar
+Person address: E.Arze #44
+##############################
+Person id: 25
+Person name: Carlos
+Person address: B.Galindo #32
+[Finished in 0.2s]
+
+###########################################################################################################################################
+		Exec1_Class_4.3
+Inside Module1
+5
+Inside class
+5
+Inside method1
+5
+Inside TopLevel
+5
+true
+[Finished in 0.2s]
+		Exec2_Class_4.3
+
+Inside Module1
+5
+Inside method1
+5
+Inside class
+5
+Inside TopLevel
+5
+true
+[Finished in 0.2s]
+		Exec3_Class_4.3
+Inside Module1
+5
+Inside class
+5
+Inside method1
+75
+Inside TopLevel
+75
+true
+[Finished in 0.2s]
+
+###########################################################################################################################################
+		Exec1_Class_4.4
+5
+3
+3
+4
+[Finished in 0.2s]
+
