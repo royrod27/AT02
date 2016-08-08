@@ -1,0 +1,26 @@
+	Exec1_5.1
+tv
+[Finished in 0.1s]
+
+C:/Users/RoyRodriguez/Documents/Repo/AT02/Roy/Ruby/Day 5/Class/Class_5.1.rb:13:in `<main>': undefined method `item_name' for #<Item:0x00000002f1f728 @item_name="tv", @quantity=1> (NoMethodError)
+[Finished in 0.2s]
+	Exec2_5.1
+tv
+[Finished in 0.2s]
+
+	Exec3_5.1
+tv
+1
+[Finished in 0.2s]
+
+	Exec4_5.1
+you have 1 radio
+[Finished in 0.1s]
+	Exec5_5.1
+You have 1 radio
+[Finished in 0.1s]
+
+##################################################################################
+	Exec1_5.2
+Hi Pedro Have a nice day
+[Finished in 0.1s]
