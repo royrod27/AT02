@@ -28,3 +28,14 @@ Last element of the first array: d
 Last element of the second array: 2
 Result of join two arrays: ["b", "c", "d", "a", "1", "b"]
 Array is: ["a", "2"]
+
+#######################################################
+Exec1_Prac_09.02
+
+mazda
+"Hydrogen"
+3
+["Hydrogen", "Helium", "Lithium"]
+["H", "He", "Li"]
+{"H"=>"Hydrogen", "He"=>"Helium", "Li"=>"Lithium"}
+[Finished in 0.1s]
