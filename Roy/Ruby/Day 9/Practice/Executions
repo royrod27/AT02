@@ -1,0 +1,30 @@
+Exec1_Prac_09
+
+Array of Numbers
+Insert Length: 4
+Insert value 1: 1
+Insert value 2: 2
+Insert value 3: 3
+Insert value 4: 4
+
+Array of Letters
+Insert Length: 4
+Insert letter 1: a
+Insert letter 2: b
+Insert letter 3: c
+Insert letter 4: d
+
+Mixed Array
+Insert Length: 4
+Insert letter or number 1: a
+Insert letter or number 2: 1
+Insert letter or number 3: b
+Insert letter or number 4: 2
+
+Common elements: ["a", "b"]
+First element of the first array: a
+First element of the second array: a
+Last element of the first array: d
+Last element of the second array: 2
+Result of join two arrays: ["b", "c", "d", "a", "1", "b"]
+Array is: ["a", "2"]
