@@ -1,0 +1,14 @@
+Insert length: 3
+Insert key: a
+Insert Value: asd
+Insert key: b
+Insert Value: bsd
+Insert key: c
+Insert Value: csd
+Keys: ["a", "b", "c"]
+Values: ["asd", "bsd", "csd"]
+Hash: {"a"=>"asd", "b"=>"bsd", "c"=>"csd"}
+Insert key:a
+Key "a" exist?: true
+Insert value:csd
+Value "csd" exist?: true

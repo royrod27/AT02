@@ -70,4 +70,3 @@ a, b, c = test.method_1
 test.method_2 b, c
 d = method_3 b, c
 method_4 d
-
