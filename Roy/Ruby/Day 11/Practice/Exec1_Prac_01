@@ -25,3 +25,27 @@ Insert Password: rjrmRJRM1234
 O.K.
 Insert E-Mail: rjrm.27@gmail.com
 O.K.
+
+
+
+Exec1_Prac_03
+Insert UserID: 10
+
+Insert UserName: pedro
+Ok, insert nex User
+Insert UserID: 30
+
+Insert UserName: pepe
+Ok, insert nex User
+Insert UserID: 70
+
+Insert UserName: carlos
+Ok, insert nex User
+Insert Digit: 3
+Insert Letter: p
+User 10 belong Group 1
+User 30 belong Group 2
+User 70 belong Group 3
+["30"]
+["pedro", "pepe"]
+{"10"=>"pedro", "30"=>"pepe", "70"=>"carlos"}

@@ -1,0 +1,7 @@
+10
+0
+[Finished in 0.1s]
+
+
+C:/Users/RoyRodriguez/Documents/Repo/AT02/Roy/Ruby/Day 12/Class/Class_02.rb:16:in `<main>': private method `new' called for Base:Class (NoMethodError)
+[Finished in 0.2s]
