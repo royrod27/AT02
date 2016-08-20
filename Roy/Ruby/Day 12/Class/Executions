@@ -1,7 +1,37 @@
+##Exec1_Class_01
+
 10
 0
 [Finished in 0.1s]
 
+##Exec1_Class_02
 
-C:/Users/RoyRodriguez/Documents/Repo/AT02/Roy/Ruby/Day 12/Class/Class_02.rb:16:in `<main>': private method `new' called for Base:Class (NoMethodError)
+10
+10
 [Finished in 0.2s]
+
+##Exec1_Class_03
+
+Line 1
+[Finished in 0.2s]
+
+##Exec1_Class_04
+
+File Name: hola
+
+File Extension: txt
+
+Lines: 4
+Text in line 0: hola
+
+Text in line 1: mudno
+
+Text in line 2: como
+
+Text in line 3: estas?
+
+hola
+mudno
+como
+estas?
+

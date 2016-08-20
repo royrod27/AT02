@@ -5,8 +5,8 @@ def files
 	print "File Extension: "
 	file_ext = gets.chomp.to_s
 	file = file_name + "." + file_ext
-	file_use = File.open(file, 'a+')
-	#file_use.truncate(0)
+	file_use = File.open(file, 'w+')
+	file_use.truncate(0)
 	puts ""
 	print "Lines: "
 	lines = gets.chomp.to_i

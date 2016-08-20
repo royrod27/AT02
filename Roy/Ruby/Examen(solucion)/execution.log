@@ -1,0 +1,39 @@
+Amount of users: 3
+Insert Username: PedroInsert Username: pedro
+Inser ID: 10
+Insert Username: carlos
+Inser ID: 20
+Insert Username: juan
+Inser ID: 30
+User: pedro
+You need a calc?:(yes or no) yes
+Select one option
+a) From Millimeters to Centimeters
+b) From Centimeters to Meters
+c) From Meters to Kilometers
+Option: a
+Option selected by user: a
+Insert the value in mm: 100
+100 Millimeters represent 10.0 Centimeters
+User: carlos
+You need a calc?:(yes or no) yes
+Select one option
+a) From Millimeters to Centimeters
+b) From Centimeters to Meters
+c) From Meters to Kilometers
+Option: 200
+Option: b
+Option selected by user: b
+Insert the value in cm: 200
+200 Centimeters represent 2.0 Meters
+User: juan
+You need a calc?:(yes or no) yes
+Select one option
+a) From Millimeters to Centimeters
+b) From Centimeters to Meters
+c) From Meters to Kilometers
+Option: c
+Option selected by user: c
+Insert the value in m: 5000
+5000 Meters represent 5.0 Kilometers
+No: []

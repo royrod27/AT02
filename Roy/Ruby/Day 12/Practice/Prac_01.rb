@@ -15,9 +15,9 @@ class	Visits
 		end
 
 		def add_user 
-			print "Ingrese Usuario:"
+			print "Insert User:"
 			new_user = gets.chomp.to_s
-			print "Ingrese Mensaje:"
+			print "Insert Menssage:"
 			new_msj = gets.chomp.to_s
 			@last_user = new_user
 			@visitors += 1
@@ -27,8 +27,16 @@ end
 
 b = Visits.instance
 p b.hash
-p b.visitors
+p "You have #{b.visitors}."
 b.add_user
 b.add_user
-c = Visits.instance.last_user
+c = b.last_user
 p "The last user is: " + c
+p "You have #{b.visitors} visitors"
+p b.hash
+
+=begin
+The difference in the use of Singleton and Class, 
+Singleton no need multiple instances and can keep data in many uses. 
+Class can not continue saving data.
+=end
