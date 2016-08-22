@@ -1,0 +1,43 @@
+** Research:
+	- When and why BDD was defined.
+		** BDD was defined because can be response at troubles: - where begin the process.
+			- how understand why they fail tests.
+			- what long is the test.
+			- what test and what not test.
+
+	- The most important aspects of BDD.
+		** 	
+	- Why is useful and when could be applied.
+		**	- Collaboration
+			- Easy Feedback
+			- Self Documentation
+		** Can be applied :
+			- Test Automation
+			- Refactoring
+		
+	- Which type of teams could implement BDD.
+		**	- Team that use agile methodology.
+** Structure of a feature - Give an example.
+		**	- Name
+			- Size [Optional]
+			- Priority
+		**	Feature: Returned items go back to stock.
+			In order to keep track of stock.
+** Structure of a user story - Give an example.
+		**	- As a [role]
+			- I want [feature]
+			- So that [benefit]
+		** 	As a store owner
+			I want to add items back to stock when they are returned	
+** Structure of a scenario - Give an example.
+		**	- Given
+			- When
+			- Then
+		**	Given a customer previously bought a black sweater from me
+			And I currently have three black sweaters left in stock
+			When he returns the sweater for a refund
+			Then I should have four black sweaters in stock
+** Differences between BDD and BDT
+		**	-BDD is focused in development.
+			-BDT is focused in testing.
+			-And each one have a especific characteristics
