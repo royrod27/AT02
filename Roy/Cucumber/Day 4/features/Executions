@@ -1,0 +1,156 @@
+Feature: Buy
+
+  Scenario: ZipCode             # features/prac1.feature:3
+    Given I have a zipCode: 111 # features/step_definitions/steps_01.rb:1
+      TODO (Cucumber::Pending)
+      ./features/step_definitions/steps_01.rb:2:in `/^I have a zipCode: ([0-9]*)$/'
+      features/prac1.feature:4:in `Given I have a zipCode: 111'
+
+  Scenario: Username              # features/prac1.feature:5
+    Given I have a username: user # features/step_definitions/steps_01.rb:5
+      TODO (Cucumber::Pending)
+      ./features/step_definitions/steps_01.rb:6:in `/^I have a username: ([a-z]*)$/'
+      features/prac1.feature:6:in `Given I have a username: user'
+
+  Scenario: Country                # features/prac1.feature:7
+    Given i have a country: Grecia # features/step_definitions/steps_01.rb:9
+      TODO (Cucumber::Pending)
+      ./features/step_definitions/steps_01.rb:10:in `/^i have a country: (\D+)$/'
+      features/prac1.feature:8:in `Given i have a country: Grecia'
+
+3 scenarios (3 pending)
+3 steps (3 pending)
+0m0.189s
+
+
+
+Feature: Fly
+
+  Scenario: First Scenario                    # features/prac2.feature:2
+    Given the flight EZY4567 is leaving today # features/step_definitions/steps_02.rb:1
+      TODO (Cucumber::Pending)
+      ./features/step_definitions/steps_02.rb:2:in `/^the flight ([A-Z0-9]*) is leaving today$/'
+      features/prac2.feature:3:in `Given the flight EZY4567 is leaving today'
+
+  Scenario: Second Scenario                # features/prac2.feature:4
+    Given the flight C038 is leaving today # features/step_definitions/steps_02.rb:1
+      TODO (Cucumber::Pending)
+      ./features/step_definitions/steps_02.rb:2:in `/^the flight ([A-Z0-9]*) is leaving today$/'
+      features/prac2.feature:5:in `Given the flight C038 is leaving today'
+
+  Scenario: Third Scenario                   # features/prac2.feature:6
+    Given the flight A13123 is leaving today # features/step_definitions/steps_02.rb:1
+      TODO (Cucumber::Pending)
+      ./features/step_definitions/steps_02.rb:2:in `/^the flight ([A-Z0-9]*) is leaving today$/'
+      features/prac2.feature:7:in `Given the flight A13123 is leaving today'
+
+3 scenarios (3 pending)
+3 steps (3 pending)
+0m0.203s
+
+
+Feature: Gmail create acount formulary
+
+  Scenario: Account              # features/prac3.feature:2
+    Given I need a gmail account # features/step_definitions/steps_03.rb:1
+      TODO (Cucumber::Pending)
+      ./features/step_definitions/steps_03.rb:2:in `/^I need a gmail account$/'
+      features/prac3.feature:3:in `Given I need a gmail account'
+
+  Scenario: Name                    # features/prac3.feature:4
+    When i enter my first name: Roy # features/step_definitions/steps_03.rb:5
+      TODO (Cucumber::Pending)
+      ./features/step_definitions/steps_03.rb:6:in `/^i enter my first name: ([A-Za-z]*)$/'
+      features/prac3.feature:5:in `When i enter my first name: Roy'
+
+  Scenario: LastName                            # features/prac3.feature:6
+    When i select text box Last name: Rodriguez # features/step_definitions/steps_03.rb:9
+      TODO (Cucumber::Pending)
+      ./features/step_definitions/steps_03.rb:10:in `/^i select text box Last name: ([A-Za-z]*)$/'
+      features/prac3.feature:7:in `When i select text box Last name: Rodriguez'
+
+  Scenario: Email                         # features/prac3.feature:8
+    When i enter my chosen email: rjrm.27 # features/step_definitions/steps_03.rb:13
+      TODO (Cucumber::Pending)
+      ./features/step_definitions/steps_03.rb:14:in `/^i enter my chosen email: ([A-Za-z0-9.-_]*)$/'
+      features/prac3.feature:9:in `When i enter my chosen email: rjrm.27'
+
+  Scenario: Password                               # features/prac3.feature:10
+    When i indroduce my chosen password: 123aSd987 # features/step_definitions/steps_03.rb:17
+      TODO (Cucumber::Pending)
+      ./features/step_definitions/steps_03.rb:18:in `/^i indroduce my chosen password: ([A-Za-z0-9]*)$/'
+      features/prac3.feature:11:in `When i indroduce my chosen password: 123aSd987'
+
+  Scenario: Password Confirmation             # features/prac3.feature:12
+    When i enter my password again: 123aSd987 # features/step_definitions/steps_03.rb:21
+      TODO (Cucumber::Pending)
+      ./features/step_definitions/steps_03.rb:22:in `/^i enter my password again: ([A-Za-z0-9]*)$/'
+      features/prac3.feature:13:in `When i enter my password again: 123aSd987'
+
+  Scenario: Month Birthday                   # features/prac3.feature:14
+    When i select my birthday month: January # features/step_definitions/steps_03.rb:25
+      TODO (Cucumber::Pending)
+      ./features/step_definitions/steps_03.rb:26:in `/^i select my birthday month: (January|February|March|April|May|June|July|August|September|November|December)$/'
+      features/prac3.feature:15:in `When i select my birthday month: January'
+
+  Scenario: Day Birthday             # features/prac3.feature:16
+    When i enter my birthday day: 20 # features/step_definitions/steps_03.rb:29
+      TODO (Cucumber::Pending)
+      ./features/step_definitions/steps_03.rb:30:in `/^i enter my birthday day: ([0-9]*)$/'
+      features/prac3.feature:17:in `When i enter my birthday day: 20'
+
+  Scenario: Year Birthday               # features/prac3.feature:18
+    When i enter my birthday year: 1992 # features/step_definitions/steps_03.rb:33
+      TODO (Cucumber::Pending)
+      ./features/step_definitions/steps_03.rb:34:in `/^i enter my birthday year: ([0-9]*)$/'
+      features/prac3.feature:19:in `When i enter my birthday year: 1992'
+
+  Scenario: Gender                # features/prac3.feature:20
+    When i select my gender: Male # features/step_definitions/steps_03.rb:37
+      TODO (Cucumber::Pending)
+      ./features/step_definitions/steps_03.rb:38:in `/^i select my gender: (Male|Female|Other)$/'
+      features/prac3.feature:21:in `When i select my gender: Male'
+
+  Scenario: Cel Number                         # features/prac3.feature:22
+    When i enter my cellphone number: 60774379 # features/step_definitions/steps_03.rb:41
+      TODO (Cucumber::Pending)
+      ./features/step_definitions/steps_03.rb:42:in `/^i enter my cellphone number: (\d+)$/'
+      features/prac3.feature:23:in `When i enter my cellphone number: 60774379'
+
+  Scenario: Actual Email                                 # features/prac3.feature:24
+    When i enter another email account: roy_23@gmail.com # features/step_definitions/steps_03.rb:45
+      TODO (Cucumber::Pending)
+      ./features/step_definitions/steps_03.rb:46:in `/^i enter another email account: roy_(\d+)@gmail\.com$/'
+      features/prac3.feature:25:in `When i enter another email account: roy_23@gmail.com'
+
+  Scenario: Country                   # features/prac3.feature:26
+    When i select my country: Bolivia # features/step_definitions/steps_03.rb:49
+      TODO (Cucumber::Pending)
+      ./features/step_definitions/steps_03.rb:50:in `/^i select my country: ([A-Za-z]*)$/'
+      features/prac3.feature:27:in `When i select my country: Bolivia'
+
+  Scenario: Final           # features/prac3.feature:28
+    Then i have one account # features/step_definitions/steps_03.rb:53
+      TODO (Cucumber::Pending)
+      ./features/step_definitions/steps_03.rb:54:in `/^i have one account$/'
+      features/prac3.feature:29:in `Then i have one account'
+
+14 scenarios (14 pending)
+14 steps (14 pending)
+0m0.985s
+
+Feature: Oranges
+
+  Scenario: Description               # features/prac4.feature:2
+    Given i have 3 oranges in my bag  # features/step_definitions/steps_04.rb:1
+    When i have 2 oranges in my table # features/step_definitions/steps_04.rb:1
+    Then i leave 2                    # features/step_definitions/steps_04.rb:5
+
+  Scenario: Chars                       # features/prac4.feature:6
+    Given i have 5 chars                # features/step_definitions/steps_04.rb:9
+    When i have 2 numbers and 3 letters # features/step_definitions/steps_04.rb:13
+    Then i delete 3 numbers             # features/step_definitions/steps_04.rb:17
+
+2 scenarios (2 passed)
+6 steps (6 passed)
+0m0.166s

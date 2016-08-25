@@ -1,7 +1,4 @@
-Given(/^i select "([^"]*)"$/) do |arg1|
-  puts "Hello" # Write code here that turns the phrase above into concrete actions
+Given(/^i select (Play music|NextMusic)$/) do |arg1|
+ # pending # Write code here that turns the phrase above into concrete actions
 end
 
-When(/^i select "([^"]*)"$/) do |arg1|
-  puts "Bye" # Write code here that turns the phrase above into concrete actions
-end

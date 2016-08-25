@@ -1,0 +1,19 @@
+Feature: One Step
+
+  Scenario: First Step             # features/prac_2.feature:3
+    When i have $100 in my account # features/step_definitions/step_first.rb:1
+    And i have $250 in my account  # features/step_definitions/step_first.rb:1
+
+1 scenario (1 passed)
+2 steps (2 passed)
+0m0.078s
+
+Feature: practice
+
+  Scenario: Play              # features/prac_3.feature:2
+    Given i select Play music # features/step_definitions/step_second.rb:1
+    Given i select NextMusic  # features/step_definitions/step_second.rb:1
+
+1 scenario (1 passed)
+2 steps (2 passed)
+0m0.073s
