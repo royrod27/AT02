@@ -1,0 +1,94 @@
+Class_01
+
+Feature: example01
+
+  Scenario: one                            # features/class_01.feature:2
+    Given a borad like this:               # features/step_definitions/steps_class01.rb:1
+      |   | 1 | 2 | 3 |
+      | 1 |   |   |   |
+      | 2 |   |   |   |
+      | 3 |   |   |   |
+    When player s plays in row 2, column 1 # features/step_definitions/steps_class01.rb:5
+    Then the board should look like this:  # features/step_definitions/steps_class01.rb:9
+      |   | 1 | 2 | 3 |
+      | 1 |   |   |   |
+      | 2 | x |   |   |
+      | 3 |   |   |   |
+      Tables were not identical:
+
+        |       |     1 |     2 |     3 |
+        |     1 |       |       |       |
+        | (-) 2 | (-) x | (-)   | (-)   |
+        | (+) 2 | (+) s | (+)   | (+)   |
+        |     3 |       |       |       |
+       (Cucumber::MultilineArgument::DataTable::Different)
+      ./features/step_definitions/steps_class01.rb:10:in `/^the board should look like this:$/'
+      features/class_01.feature:10:in `Then the board should look like this:'
+
+Failing Scenarios:
+cucumber features/class_01.feature:2 # Scenario: one
+
+1 scenario (1 failed)
+3 steps (1 failed, 2 passed)
+0m0.287s
+
+Class_02
+
+Feature: Xample02
+
+  Scenario: Withdraw fixed amount of $50              # features/class_02.feature:2
+    Given I have $500 in my account                   # features/step_definitions/steps_class02.rb:1
+    When I choose to withdraw the fixed amount of $50 # features/step_definitions/steps_class02.rb:5
+    Then I should receive $50 cash                    # features/step_definitions/steps_class02.rb:9
+      This is your $50
+    And the balance of my account should be $450      # features/step_definitions/steps_class02.rb:13
+
+1 scenario (1 passed)
+4 steps (4 passed)
+0m0.164s
+
+Class_03
+
+Feature: Calls
+
+  Background: Unlock my cellphone  # features/class_03.feature:3
+    Given i need use my cellphone  # features/step_definitions/steps_class03.rb:1
+    When i push unlock button      # features/step_definitions/steps_class03.rb:5
+    Then i can use my applications # features/step_definitions/steps_class03.rb:9
+
+  Scenario: Realize a call                             # features/class_03.feature:9
+    Given i need verify all calls                      # features/step_definitions/steps_class03.rb:13
+    When i enter to list of calls                      # features/step_definitions/steps_class03.rb:17
+    Then i should see                                  # features/step_definitions/steps_class03.rb:21
+      [["Number", "Date", "In/Out"], ["60774379", "08/20", "in"], ["77554411", "07/21", "out"]]
+      | Number   | Date  | In/Out |
+      | 60774379 | 08/20 | in     |
+      | 77554411 | 07/21 | out    |
+    Then i have 2 calls                                # features/step_definitions/steps_class03.rb:27
+    Given i need comunication                          # features/step_definitions/steps_class03.rb:31
+    When i push in phone button                        # features/step_definitions/steps_class03.rb:35
+    When when i dial the number 77885544               # features/step_definitions/steps_class03.rb:39
+
+    When i push Call button                            # features/step_definitions/steps_class03.rb:44
+    Then i have communication with a people            # features/step_definitions/steps_class03.rb:48
+    And one new out call in the register in date 08/26 # features/step_definitions/steps_class03.rb:52
+      out
+      08/26
+      [["Number", "Date", "In/Out"], ["60774379", "08/20", "in"], ["77554411", "07/21", "out"]]
+      [["Number", "Date", "In/Out"], ["60774379", "08/20", "in"], ["77554411", "07/21", "out"], ["77885544", "08/26", "out"]]
+    When i review Call register                        # features/step_definitions/steps_class03.rb:63
+    Then i should see,                                 # features/step_definitions/steps_class03.rb:67
+      | Number   | Date  | In/Out |
+      | 60774379 | 08/20 | in     |
+      | 77554411 | 07/21 | out    |
+      | 77885544 | 08/26 | out    |
+
+  Scenario: Listen Music                      # features/class_03.feature:30
+    Given i need listen music                 # features/step_definitions/steps_class03.rb:72
+    When i enter Spotify                      # features/step_definitions/steps_class03.rb:76
+    And i find music                          # features/step_definitions/steps_class03.rb:80
+    Then i can listen music with my cellphone # features/step_definitions/steps_class03.rb:84
+
+2 scenarios (2 passed)
+22 steps (22 passed)
+0m0.544s

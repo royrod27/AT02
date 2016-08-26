@@ -42,7 +42,7 @@ When(/^i enter my cellphone number: (\d+)$/) do |arg1|
   pending # Write code here that turns the phrase above into concrete actions
 end
 
-When(/^i enter another email account: roy_(\d+)@gmail\.com$/) do |arg1|
+When(/^i enter another email account: ([roy_(\d*)@gmail\.com])$/) do |arg1|
   pending # Write code here that turns the phrase above into concrete actions
 end
 
