@@ -1,0 +1,49 @@
+###class_01.feature
+
+Feature: Example..
+
+  Scenario Outline: example Scenario_Outline                 # features/class_01.feature:2
+    Given I have <BALANCE> in my account                     # features/class_01.feature:3
+    When I choose to withdraw the fixed amount of <WITHDRAW> # features/class_01.feature:4
+    Then I should receive <RECEIVED> cash                    # features/class_01.feature:5
+    And the balance of my account should be <REMAINING>      # features/class_01.feature:6
+
+    Examples:
+      | BALANCE | WITHDRAW | RECEIVED | REMAINING |
+      | $500    | $50      | $50      | $450      |  This is your $50, Bye Bye
+      | $500    | $100     | $100     | $400      |  This is your $100, Bye Bye
+      | $500    | $200     | $200     | $300      |  This is your $200, Bye Bye
+
+3 scenarios (3 passed)
+12 steps (12 passed)
+0m0.196s
+
+###class_02.feature
+
+Feature: Practice_Cucumber_session_7
+
+  @before @after @outline
+  Scenario Outline: List of Clients # features/class_02.feature:5
+    Given I search <USER>           # features/class_02.feature:6
+    When i insert <ID>              # features/class_02.feature:7
+    Then i have <PRICED>            # features/class_02.feature:8
+
+    Examples:
+      | USER  | ID  | PRICED |
+      | pepe  | 123 | 350    |  Im running an outline Scenario, CUSTOMER SEARCH TEST, SEARCHING..., I finished running the outline scenario, Bye Bye
+      | juan  | 345 | 200    |  Im running an outline Scenario, CUSTOMER SEARCH TEST, SEARCHING..., I finished running the outline scenario, Bye Bye
+      | maria | 678 | 100    |  Im running an outline Scenario, CUSTOMER SEARCH TEST, SEARCHING..., I finished running the outline scenario, Bye Bye
+
+  @before @after @normal
+  Scenario: Client      # features/class_02.feature:18
+      Im running a normal Scenario
+      CUSTOMER SEARCH TEST
+    Given I search juan # features/step_definitions/step_02.rb:1
+    When i insert 345   # features/step_definitions/step_02.rb:7
+    Then i have 200     # features/step_definitions/step_02.rb:12
+      I finished running the normal scenario
+      Bye Bye
+
+4 scenarios (4 passed)
+12 steps (12 passed)
+0m0.306s
