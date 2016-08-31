@@ -19,4 +19,3 @@ Scenario: Client
 	Given I search juan
 	When i insert 345
 	Then i have 200
-
